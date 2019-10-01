@@ -5,7 +5,7 @@ All you need to know about the fictious **Banking Data Model &amp; APIs** for th
 
 This page will provide high level documentation, the basics and links to get to the **APIs** and more detailed documentation.
 + Detailed documentation of the **IBM API Connect APIs** is [here](mockupbank-api-doc.md)
-+ Access to a Node-RED application which consumes the APIs [here]()
++ Access to a Node-RED application which consumes the APIs 
 + Detailed documentation of the Data Model is [here](datamodel/DataModel.md)
 
 ---
