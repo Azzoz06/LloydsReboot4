@@ -4,11 +4,12 @@
 All you need to know about the fictious **Banking Data Model &amp; APIs** for the Hackathon.
 
 This page will provide high level documentation, the basics and links to get to the **APIs** and more detailed documentation.
-
-+ Detailed doumentation of the Data Model is [here](datamodel/DataModel.md)
 + Detailed documentation of the **IBM API Connect APIs** is [here](mockupbank-api-doc.md)
----
++ Access to a Node-RED application which consumes the APIs [here]()
++ Detailed documentation of the Data Model is [here](datamodel/DataModel.md)
 
+---
+### The API Connect developer Portal  
 
 The **API developer portal** for the Mockbank is provided by **IBM API Connect** at
 https://sb-bsc-7-px-lb-2019.developer.eu.apiconnect.ibmcloud.com/
@@ -29,6 +30,21 @@ The list of APIs is available by clicking on the `reboot-mockup-bank REST APIs` 
 ![](assets/markdown-img-paste-20191001122446852.png)
 
 ---
+### The Node-RED application  
+Node-RED is a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways.
+
+It provides a browser-based editor that makes it easy to wire together flows using the wide range of nodes in the palette that can be deployed to its runtime in a single-click.
+
+Node-RED website is available [here]: https://nodered.org/
+
+A sample Web Application has been built for you to consume the URLs as an example of rapidly prototyping an app.
+This application is available at the following URL: https://lloydsreboot4.eu-gb.mybluemix.net/ui  
+
+![](assets/markdown-img-paste-20191001123544158.png)
+
+---
+### The Data model  
+
 The **Data Model** is a simplistic one based on Customers, Accounts and Transactions.
 
 The provided data is based on the following schema which is an extract of a larger data model.
