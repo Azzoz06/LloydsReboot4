@@ -760,17 +760,26 @@ Retrieves all transactions for a given customer based on a customer ID. You may 
   }
 ]
 ```
+
+
+## HTTP POST
+
 __Add a transaction for a given account__
+
+> **Note: there is a specific Base URL for the POST**  
+
+Base URL = http://reboot-mockup-bank.eu-gb.mybluemix.net/
 
 `Base URL/PATH + “/transaction/bank/{bid}/account/{id}”`
 
-Adds a transaction for a given account.
-
-## HTTP POST
+**Request URL:**
+`http://reboot-mockup-bank.eu-gb.mybluemix.net/bankingapis/transaction/bank/{bid}/account/{aid}`
 
 *JSON Message to POST*
 The following code is the payload that needs to be passed to the API which contains the details of the transaction.
 > **Note:** groups that want to use the POST API during the Hackathon should contact IBM Mentors for support (either Clémence Lebrun or Emmanuel Génard)
+
+**Body Request:** 
 ```
 {
   "amount": -120,
