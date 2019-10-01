@@ -3,15 +3,75 @@
 
 
 
-**PATH:** https://sb-bsc-4-or-gisc-lbg.developer.eu.apiconnect.ibmcloud.com
+**Base URL:** https://api.eu-gb.apiconnect.appdomain.cloud/bsc-7-px-lb-2019/sb
+![](assets/markdown-img-paste-20191001151956498.png)
 
-**Base URL:**   /bankingapis/
+**Path:**   /bankingapis/
 
-**API version:** Libert REST APIs 4.0.0  
+**API version:** reboot-mockup-bank-apiconnect (1.0.0)  
 
-![](mockbank-api-liberty.png)
+![](assets/markdown-img-paste-20191001150845141.png)
+
 ---
+## API list
+<ul>
+<li class="tocItem operation toc-apis_reboot-mockup-bank-rest-apis100_paths_bankingapisaccountbankbidcustomerid_get">
+<a class="get" onclick="API.navigateop('apis_reboot-mockup-bank-rest-apis100_paths_bankingapisaccountbankbidcustomerid_get', 'apis_reboot-mockup-bank-rest-apis100')" href="javascript:;" title="GET /bankingapis/account/bank/{bid}/customer/{id}">GET /bankingapis/account/bank/{bid}/customer/{id}</a>
+</li>
+<li class="tocItem operation toc-apis_reboot-mockup-bank-rest-apis100_paths_bankingapisaccountbankbidmulti_get">
+  <a class="get" onclick="API.navigateop('apis_reboot-mockup-bank-rest-apis100_paths_bankingapisaccountbankbidmulti_get', 'apis_reboot-mockup-bank-rest-apis100')" href="javascript:;" title="GET /bankingapis/account/bank/{bid}/multi">GET /bankingapis/account/bank/{bid}/multi</a>
+</li>
+                                                                                                        <li class="tocItem operation toc-apis_reboot-mockup-bank-rest-apis100_paths_bankingapisaccountbankbidid_get">
+  <a class="get" onclick="API.navigateop('apis_reboot-mockup-bank-rest-apis100_paths_bankingapisaccountbankbidid_get', 'apis_reboot-mockup-bank-rest-apis100')" href="javascript:;" title="GET /bankingapis/account/bank/{bid}/{id}">GET /bankingapis/account/bank/{bid}/{id}</a>
+</li>
+                                                                                                        <li class="tocItem operation toc-apis_reboot-mockup-bank-rest-apis100_paths_bankingapisaccounttotalbankbidmulti_get">
+  <a class="get" onclick="API.navigateop('apis_reboot-mockup-bank-rest-apis100_paths_bankingapisaccounttotalbankbidmulti_get', 'apis_reboot-mockup-bank-rest-apis100')" href="javascript:;" title="GET /bankingapis/account/total/bank/{bid}/multi">GET /bankingapis/account/total/bank/{bid}/multi</a>
+</li>
+                                                                                                        <li class="tocItem operation toc-apis_reboot-mockup-bank-rest-apis100_paths_bankingapisbranchatmbankbidmulti_get">
+  <a class="get" onclick="API.navigateop('apis_reboot-mockup-bank-rest-apis100_paths_bankingapisbranchatmbankbidmulti_get', 'apis_reboot-mockup-bank-rest-apis100')" href="javascript:;" title="GET /bankingapis/branchatm/bank/{bid}/multi">GET /bankingapis/branchatm/bank/{bid}/multi</a>
+</li>
+                                                                                                        <li class="tocItem operation toc-apis_reboot-mockup-bank-rest-apis100_paths_bankingapisbranchatmbankbidid_get">
+  <a class="get" onclick="API.navigateop('apis_reboot-mockup-bank-rest-apis100_paths_bankingapisbranchatmbankbidid_get', 'apis_reboot-mockup-bank-rest-apis100')" href="javascript:;" title="GET /bankingapis/branchatm/bank/{bid}/{id}">GET /bankingapis/branchatm/bank/{bid}/{id}</a>
+</li>
+                                                                                                        <li class="tocItem operation toc-apis_reboot-mockup-bank-rest-apis100_paths_bankingapiscustomerbankbidmulti_get">
+  <a class="get" onclick="API.navigateop('apis_reboot-mockup-bank-rest-apis100_paths_bankingapiscustomerbankbidmulti_get', 'apis_reboot-mockup-bank-rest-apis100')" href="javascript:;" title="GET /bankingapis/customer/bank/{bid}/multi">GET /bankingapis/customer/bank/{bid}/multi</a>
+</li>
+                                                                                                        <li class="tocItem operation toc-apis_reboot-mockup-bank-rest-apis100_paths_bankingapiscustomerbankbidid_get">
+  <a class="get" onclick="API.navigateop('apis_reboot-mockup-bank-rest-apis100_paths_bankingapiscustomerbankbidid_get', 'apis_reboot-mockup-bank-rest-apis100')" href="javascript:;" title="GET /bankingapis/customer/bank/{bid}/{id}">GET /bankingapis/customer/bank/{bid}/{id}</a>
+</li>
+                                                                                                        <li class="tocItem operation toc-apis_reboot-mockup-bank-rest-apis100_paths_bankingapiscustomerbankbididfamily_get">
+  <a class="get" onclick="API.navigateop('apis_reboot-mockup-bank-rest-apis100_paths_bankingapiscustomerbankbididfamily_get', 'apis_reboot-mockup-bank-rest-apis100')" href="javascript:;" title="GET /bankingapis/customer/bank/{bid}/{id}/family">GET /bankingapis/customer/bank/{bid}/{id}/family</a>
+</li>
+                                                                                                        <li class="tocItem operation toc-apis_reboot-mockup-bank-rest-apis100_paths_bankingapiscustomertotalbankbidmulti_get">
+  <a class="get" onclick="API.navigateop('apis_reboot-mockup-bank-rest-apis100_paths_bankingapiscustomertotalbankbidmulti_get', 'apis_reboot-mockup-bank-rest-apis100')" href="javascript:;" title="GET /bankingapis/customer/total/bank/{bid}/multi">GET /bankingapis/customer/total/bank/{bid}/multi</a>
+</li>
+                                                                                                        <li class="tocItem operation toc-apis_reboot-mockup-bank-rest-apis100_paths_bankingapismunicipalityid_get">
+  <a class="get" onclick="API.navigateop('apis_reboot-mockup-bank-rest-apis100_paths_bankingapismunicipalityid_get', 'apis_reboot-mockup-bank-rest-apis100')" href="javascript:;" title="GET /bankingapis/municipality/{id}">GET /bankingapis/municipality/{id}</a>
+</li>
+                                                                                                        <li class="tocItem operation toc-apis_reboot-mockup-bank-rest-apis100_paths_bankingapistransactionbankbidaccountid_get">
+  <a class="get" onclick="API.navigateop('apis_reboot-mockup-bank-rest-apis100_paths_bankingapistransactionbankbidaccountid_get', 'apis_reboot-mockup-bank-rest-apis100')" href="javascript:;" title="GET /bankingapis/transaction/bank/{bid}/account/{id}">GET /bankingapis/transaction/bank/{bid}/account/{id}</a>
+</li>
+                                                        <li class="tocItem operation toc-apis_reboot-mockup-bank-rest-apis100_paths_bankingapistransactionbankbidaccountid_post">
+  <a class="post" onclick="API.navigateop('apis_reboot-mockup-bank-rest-apis100_paths_bankingapistransactionbankbidaccountid_post', 'apis_reboot-mockup-bank-rest-apis100')" href="javascript:;" title="POST /bankingapis/transaction/bank/{bid}/account/{id}">POST /bankingapis/transaction/bank/{bid}/account/{id}</a>
+</li>
+                                                                                                        <li class="tocItem operation toc-apis_reboot-mockup-bank-rest-apis100_paths_bankingapistransactionbankbidcustomerid_get">
+  <a class="get" onclick="API.navigateop('apis_reboot-mockup-bank-rest-apis100_paths_bankingapistransactionbankbidcustomerid_get', 'apis_reboot-mockup-bank-rest-apis100')" href="javascript:;" title="GET /bankingapis/transaction/bank/{bid}/customer/{id}">GET /bankingapis/transaction/bank/{bid}/customer/{id}</a>
+</li>
+                                                                                                        <li class="tocItem operation toc-apis_reboot-mockup-bank-rest-apis100_paths_bankingapistransactionbankbidcustomeridyearyearmonthmonth_get">
+  <a class="get" onclick="API.navigateop('apis_reboot-mockup-bank-rest-apis100_paths_bankingapistransactionbankbidcustomeridyearyearmonthmonth_get', 'apis_reboot-mockup-bank-rest-apis100')" href="javascript:;" title="GET /bankingapis/transaction/bank/{bid}/customer/{id}/year/{year}/month/{month}">GET /bankingapis/transaction/bank/{bid}/customer/{id}/year/{year}/month/{month}</a>
+</li>
+  <li class="tocItem operation toc-apis_reboot-mockup-bank-rest-apis100_paths_bankingapistransactionbankbidid_get">
+  <a class="get" onclick="API.navigateop('apis_reboot-mockup-bank-rest-apis100_paths_bankingapistransactionbankbidid_get', 'apis_reboot-mockup-bank-rest-apis100')" href="javascript:;" title="GET /bankingapis/transaction/bank/{bid}/{id}">GET /bankingapis/transaction/bank/{bid}/{id}</a>
+</li>
+                                                                <li class="tocItem operation toc-apis_reboot-mockup-bank-rest-apis100_paths_bankingapistransactiontotalbankbidcustomerid_get">
+  <a class="get" onclick="API.navigateop('apis_reboot-mockup-bank-rest-apis100_paths_bankingapistransactiontotalbankbidcustomerid_get', 'apis_reboot-mockup-bank-rest-apis100')" href="javascript:;" title="GET /bankingapis/transaction/total/bank/{bid}/customer/{id}">GET /bankingapis/transaction/total/bank/{bid}/customer/{id}</a>
+</li>
+                                                                <li class="tocItem operation toc-apis_reboot-mockup-bank-rest-apis100_paths_bankingapistransactiontotalbankbidcustomeridyearyearmonthmonth_get">
+  <a class="get" onclick="API.navigateop('apis_reboot-mockup-bank-rest-apis100_paths_bankingapistransactiontotalbankbidcustomeridyearyearmonthmonth_get', 'apis_reboot-mockup-bank-rest-apis100')" href="javascript:;" title="GET /bankingapis/transaction/total/bank/{bid}/customer/{id}/year/{year}/month/{month}">GET /bankingapis/transaction/total/bank/{bid}/customer/{id}/year/{year}/month/{month}</a>
+</li>                                                      
+</ul>
 
+---
 ## Operations
 
 All `GET` and `POST` operations are grouped under a category. The operations are accessible as REST resources from the **[API Portal](https://sb-bsc-4-or-gisc-lbg.developer.eu.apiconnect.ibmcloud.com)**.
@@ -23,11 +83,11 @@ Only one bank is available in the rest API. Each API (except municipality) must 
 **In the current implementation the Bank ID available for 1.**
 
 ### CUSTOMER
-`PATH/Base URL + “/customer/”`
+`Base URL/PATH + “/customer/”`
 
 __Search for customer__
 
-`PATH/Base URL + “/customer/bank/{bid}/multi”`
+`Base URL/PATH + “/customer/bank/{bid}/multi”`
 Retrieves a list of Customers based on search query parameters. The search returns only the 100 first customers matching query parameters order by `customerId` in ascending order. The objective is to use query parameters to limit the returned data,n rather than retrieving the entire list of customers.
 
 __*Sample request: age between 90 and 91.*__
@@ -150,7 +210,7 @@ __*Sample request: age between 90 and 91.*__
 
 __Retrieve customer information__
 
-`PATH/Base URL + “/customer/bank/{bid}/{id}”`
+`Base URL/PATH + “/customer/bank/{bid}/{id}”`
 
 Retrieves the details of a customer based on the customer ID. IDs are string (such as '1').
 
@@ -217,7 +277,7 @@ Retrieves the details of a customer based on the customer ID. IDs are string (su
 
 __Retrieve family  information__
 
-`PATH/Base URL + “/customer/bank/{bid}/{id}/family”`
+`Base URL/PATH + “/customer/bank/{bid}/{id}/family”`
 
 Retrieves all the customers that are relatives (part of the same family) of the customer identified by customer ID. IDs are string (such as '7').
 
@@ -310,7 +370,7 @@ Retrieves all the customers that are relatives (part of the same family) of the 
 ```
 __Retrieve municipality  information__
 
-`PATH/Base URL + “/municipality/{id}”`
+`Base URL/PATH + “/municipality/{id}”`
 
 Retrieves a location (a city) name based on the municipality ID.
 > **Note:** that you do not really need it, as all data containing municipality always contains the municipality name. IDs are string (such as '1').
@@ -330,11 +390,11 @@ A branch in a Bank physical location. It can be as small as an ATM in the street
 2. Central
 3. Community
 
-`PATH/Base URL + “/branchatm/”`
+`Base URL/PATH + “/branchatm/”`
 
 __Search for an ATM__
 
-`PATH/Base URL + “/branchtatm/bank/{bid}/{id}”`
+`Base URL/PATH + “/branchtatm/bank/{bid}/{id}”`
 Retrieves the Branch/ATM based on its unique ID. IDs are string (such as '1405'). You may prefer to use the /branchatm/multi for a search.
 
 > **Note:** the ATM field in the below response is a boolean indicating whether the returned branch as an ATM or not. We consider all branches have at least one ATM, so this field will always be '1'.  
@@ -366,7 +426,7 @@ Retrieves the Branch/ATM based on its unique ID. IDs are string (such as '1405')
 
 __Search for a list of ATMs__
 
-`PATH/Base URL + “/branchtatm/bank/{bid}/multi”`
+`Base URL/PATH + “/branchtatm/bank/{bid}/multi”`
 
 Retrieves a list of Branches/ATMs based on search query parameters.
 
@@ -446,7 +506,7 @@ Retrieves a list of Branches/ATMs based on search query parameters.
 ```
 __Retrieve customer accounts__
 
-`PATH/Base URL + “/account/bank/{bid}/customer/{id}”`
+`Base URL/PATH + “/account/bank/{bid}/customer/{id}”`
 
 Retrieves all the accounts belonging to a given customer based on the customer ID. IDs are string (such as '1').
 
@@ -490,7 +550,7 @@ Retrieves all the accounts belonging to a given customer based on the customer I
 ```
 __Search for account that have specific characteristics__
 
-`PATH/Base URL + “/account/bank/{bid}/multi”`
+`Base URL/PATH + “/account/bank/{bid}/multi”`
 
 Retrieves all accounts and their attributes.
 > **Note:** the search returns only the 100 first accounts matching the query parameters.
@@ -537,7 +597,7 @@ Possible parameters: product_cat="Savings"
 ```
 __Retrieve accounts characteristics__
 
-`PATH/Base URL + “/account/bank/{bid}/{id}”`
+`Base URL/PATH + “/account/bank/{bid}/{id}”`
 
 Retrieves the accounts information based on the account ID. IDs are string (such as '1').
 
@@ -564,11 +624,11 @@ Retrieves the accounts information based on the account ID. IDs are string (such
 Transactions are any inbound or outbound movement to or from a bank account.
 > **Note:** Transactions are exposed with a `GET` API to retrieve specific Transaction information but **ALSO** with a `POST` API to initiate a transaction.
 
-`PATH/Base URL + “/transaction/”`
+`Base URL/PATH + “/transaction/”`
 
 __Get Account Transactions__
 
-`PATH/Base URL + “/transaction/bank/{bid}/account/{id}”`
+`Base URL/PATH + “/transaction/bank/{bid}/account/{id}”`
 
 Retrieves transaction list for a given account ID. IDs are string (such as '4822').
 
@@ -671,7 +731,7 @@ Retrieves transaction list for a given account ID. IDs are string (such as '4822
 ```
 __Get Account Transactions for a customer__
 
-`PATH/Base URL + “/transaction/bank/{bid}/customer/{id}”`
+`Base URL/PATH + “/transaction/bank/{bid}/customer/{id}”`
 
 Retrieves all transactions for a given customer based on a customer ID. You may also include the account category to narrow the search.
 > **Note:** the search returns only the 100 first transactions matching query parameters. IDs are string (such as '123').
@@ -702,7 +762,7 @@ Retrieves all transactions for a given customer based on a customer ID. You may 
 ```
 __Add a transaction for a given account__
 
-`PATH/Base URL + “/transaction/bank/{bid}/account/{id}”`
+`Base URL/PATH + “/transaction/bank/{bid}/account/{id}”`
 
 Adds a transaction for a given account.
 
