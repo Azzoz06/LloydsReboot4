@@ -779,15 +779,16 @@ Base URL = http://reboot-mockup-bank.eu-gb.mybluemix.net/
 The following code is the payload that needs to be passed to the API which contains the details of the transaction.
 > **Note:** groups that want to use the POST API during the Hackathon should contact IBM Mentors for support (either Clémence Lebrun or Emmanuel Génard)
 
-**Body Request:** 
+**Body Request:**
 ```
 {
   "amount": -120,
   "category": "Cash Withdrawal",
-  "transactDate": 1431965777000,
+  "transactDate": 1431965777000,   
   "transactionDesc": "Cash Withdrawal ... ATM-1"
 }
-```
+```  
+> **Note:** The transaction date (**transactDate**) is a timestamp in milliseconds. It gets automatically converted to a proper date format. 
 
 **Response :**  HTTP Response code 200
 ```
@@ -898,9 +899,9 @@ Valid values are:
 ### *TRANSACTION*
 
 Transactions information
-* accountId:	The identification (Id) for the account.
-* transactDate:	Actual date of transaction
-* category:	The category or type of the transaction.
+* **accountId:**	The identification (Id) for the account.
+* **transactDate:**	Actual date of transaction in milliseconds
+* **category:**	The category or type of the transaction.
 Valid values are:
   * Cash Withdrawal
   * Cheque Deposit
@@ -909,8 +910,8 @@ Valid values are:
   * Transfer Inbound
   * Transfer Outbound
 
-* transactionDesc:	The description of the transaction.
-* amount:	-Number (removing money from account), +Number (adding money to account)
+* **transactionDesc:**	The description of the transaction.
+* **amount:**	-Number (removing money from account), +Number (adding money to account)
 
 
 ### LOCATION
